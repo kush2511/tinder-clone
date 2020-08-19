@@ -1,0 +1,101 @@
+.swipeButtons {
+    position: fixed;
+    bottom: 2.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.swipeButtons .MuiIconButton-root{
+    background-color: white;
+    /* box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important; */
+}
+.swipeButtons .MuiSvgIcon-root{
+    font-size: xx-large !important;
+}
+
+.swipeButtons__repeat{
+    height: 50px;
+    width: 50px;
+    padding: 3vh !important;
+    color: rgb(245, 107, 238) !important;
+    box-shadow: 0px 10px 53px 15px rgba(245, 107, 238, 0.5) !important;
+}
+.swipeButtons__repeat:hover{
+    transition: 0.3s all ease-in-out;
+    box-shadow: 0px 10px 53px 25px rgba(245, 107, 238, 0.6) !important;
+}
+.swipeButtons__left{
+    height: 50px;
+    width: 50px;
+    padding: 3vh !important;
+    color: rgb(149, 29, 209) !important;
+    box-shadow: 0px 10px 53px 15px rgba(149, 29, 209, 0.3) !important;
+}
+.swipeButtons__left:hover{
+    transition: 0.3s all ease-in-out;
+    box-shadow: 0px 10px 53px 25px rgba(149, 29, 209, 0.5) !important;
+}
+.swipeButtons__star{
+    height: 50px;
+    width: 50px;
+    padding: 3vh !important;
+    color: rgb(40, 179, 132) !important;
+    box-shadow: 0px 10px 53px 15px rgba(40, 179, 132, 0.3) !important;
+}
+.swipeButtons__star:hover{
+    transition: 0.3s all ease-in-out;
+    box-shadow: 0px 10px 53px 25px rgba(40, 179, 132, 0.5) !important;
+}
+.swipeButtons__right{
+    height: 50px;
+    width: 50px;
+    padding: 3vh !important;
+    color: rgb(247, 54, 54) !important;
+    box-shadow: 0px 10px 53px 15px rgba(245, 0, 0, 0.3) !important;
+}
+.swipeButtons__right:hover{
+    transition: 0.3s all ease-in-out;
+    box-shadow: 0px 10px 53px 25px rgba(245, 0, 0, 0.5) !important;
+}
+.swipeButtons__lightning{
+    height: 50px;
+    width: 50px;
+    padding: 3vh !important;
+    color: rgb(79, 159, 212) !important;
+    box-shadow: 0px 10px 53px 15px rgba(79, 159, 212, 0.3) !important;
+}
+.swipeButtons__lightning:hover{
+    transition: 0.3s all ease-in-out;
+    box-shadow: 0px 10px 53px 25px rgba(79, 159, 212, 0.5) !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .swipeButtons {
+        position: fixed;
+        bottom: 2.5vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .swipeButtons__repeat{
+        height: 10px;
+        width: 10px;
+    }
+    .swipeButtons__left{
+        height: 10px;
+        width: 10px;
+    }
+    .swipeButtons__star{
+        height: 10px;
+        width: 10px;
+    }
+    .swipeButtons__right{
+        height: 10px;
+        width: 10px;
+    }
+    .swipeButtons__lightning{
+        height: 10px;
+        width: 10px;
+    }
+  }
